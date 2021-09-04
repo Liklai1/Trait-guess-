@@ -1,0 +1,61 @@
+<html>
+  <head>
+    <title>Trait guess?</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body background="WebsiteTC.jpeg">
+  <div class="container">
+  
+    <center>
+      <h3 class="heading" style="font-size: 30px;"> What do you look like?
+      </h3>
+      <br><br>
+
+      <p style="font-size: 26px;" class="selfie_headline">Take your selfie to see what kind of trait you give out to others? 
+      	<br>
+          <p style="font-size: 20px;" class="DISCLAIMER"> DISCLAIMER - This is based on just a combination of one of the most common physical features that people who possess certain desirable traits have! And please press the Predict button a couple of times to see the full result^^</p>
+      </p>
+      <br>
+      <br>
+      
+      <div class="col-md-4 col-sm-12 col-xs-12">
+        <label> Webcam view - </label>
+        <div id="camera"> </div>
+        <br> <br>
+        <button onclick="take_snapshot();" class="btn btn-warning"> Capture Image </button>
+	     
+
+        
+
+      </div>
+    <div class="col-md-4 col-sm-12 col-xs-12">
+      <label> 1st trait -</label>
+      <p class="trait_name" id="result_trait_name"></p>
+      <p class="emoji" id="update_trait"></p>
+    </div>
+  
+    <div class="col-md-4 col-sm-12 col-xs-12">
+    <label>Snapshot - </label>
+    <div id="result"></div>
+    <br><br>
+    <button onclick="check();" class="btn btn-success"> Predict trait? </button>
+   </div>
+  </center>
+  </div>
+<div class="copy_right_footer">
+    Developed by Liklai Manoharmayum ( happy teacher's day ! ! !  )
+</div>
+<script src="main.js"></script>
+
+  </body>
+</html>
+
+ 

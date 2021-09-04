@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+body
+{
+    background-size: cover;
+    scroll-behavior: smooth;
+}
+.heading{
+color: rgb(24, 24, 17)
+}
+#camera , #result
+{
+  border: 2px dashed rgb(189, 177, 67);
+  width: 350px;
+  height: 300px; 
+}
+#result_trait_name ,#result_trait_name2  
+{
+  color: rgb(37, 37, 37);
+}
+.emoji
+{
+  font-size:48px;
+  color: black;
+}
+.trait_name
+{
+  font-size: 40px;
+}
+.heading 
+{
+  font-size: 18px;
+  border-radius: 10px;
+  letter-spacing: 3px;
+}
+label{
+  font-size: 14px;
+  color:rgb(255, 228, 75);
+  padding: 6px;
+  border-radius: 10px;
+  background-color: rgb(153, 129, 21);
+}
+.selfie_headline{
+    color:rgb(153, 134, 25)
+}
+.DISCLAIMER{
+    color:saddlebrown;
+}
+.copy_right_footer{
+    position: fixed;
+    color:rgb(63, 63, 42);
+    bottom: 0;
+    width: 100%;
+    background-color:rgb(255, 254, 209);
+    list-style: 3;
+    text-align: center;
+}
